@@ -1,0 +1,363 @@
+
+html{
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+   box-sizing: inherit;
+}
+body{
+   font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    /*color: #102746;*/
+    margin: 0;
+    padding: 0;
+
+}
+p{
+    margin-top: 10px;
+    margin-bottom: 0;
+
+}
+.p_hello{
+    margin-right: 15px;
+    flex-basis: 30%;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+.button7{
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.button7:hover { background: rgb(53, 167, 110); }
+.button7:active {
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
+}
+.btn{
+    margin-right: 30px;
+}
+.wrapper{
+    margin: 0 auto;
+}
+/* Header styles start */
+.header{
+    background: lightgray;
+    justify-content: space-between;
+    display: flex;
+}
+.header-logo {
+    padding: 10px 0;
+    margin-left: 95px;
+}
+.logo {
+    margin: 0;
+    color: #780053;
+    font-size: 36px;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+.logo:hover {
+    color: white;
+}
+.logo_blue {
+    color: #1c0dcc;
+}
+.header_active{
+    background: #C0C0C0;
+}
+.header__wrapper{
+    padding-top: 10px;
+}
+.header__list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header__item{
+    margin-right: 82px;
+}
+.header__item:last-child{
+    margin-right: 0;
+}
+.header__link{
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    text-decoration: none;
+}
+.header__link:hover, .header__link:focus, .header__link:active{
+    opacity: .75;
+}
+.header__nav{
+    display: flex;
+}
+.text__header{
+    font-size: larger;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 100px;
+}
+
+.regContent{
+    margin-top: 30px;
+    text-align: center;
+}
+.msg{
+    border: 2px solid red;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+/* Header styles end */
+
+/*Section styles start*/
+.section-registration_autorization{
+    padding-bottom: 50px;
+}
+.registration__title{
+    text-align: center;
+}
+.form__bg{
+    margin-top: 30px;
+}
+.cont__reg{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.regContentSection{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.section-info__form{
+    margin-top: 50px;
+}
+.head_form_text{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.heading_text{
+    text-align: center;
+    font-size: 35px;
+}
+.head_form_content{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 100px;
+    font-size: 20px;
+}
+.head_form_content_text_title{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form_create_tic{
+    margin-top: 150px;
+   /* margin-bottom: 200px;*/
+}
+.form_create_tic_heading{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.form_create_tic_cont{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.form_create_tic_cont:last-child{
+    margin-bottom: 30px;
+}
+.form_create_tic_content{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    margin-bottom: 100px;
+}
+.section-create{
+    margin-bottom: 50px;
+}
+.ticket_instruments{
+    margin-bottom: 30px;
+    /*display: flex;*/
+}
+.ticket__title{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.ticket_title_theme {
+    width: 500px;
+    height: 50px;
+    font-size: 17px;
+}
+.ticket__body_problems{
+    width: 500px;
+    height: 350px;
+    font-size: 17px;
+}
+.poster-img__add{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    height: 400px;
+}
+.button_screenshot_file{
+    overflow: hidden;
+    z-index: -1;
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+
+}
+.ticket_instruments:last-child{
+    margin-bottom: 50px;
+}
+
+.ticket_content_bd{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+    border-bottom: 5px solid grey;
+}
+.ticket_content_bd_list{
+    margin-bottom: 30px;
+}
+.ticket_content_title{
+    font-size: 40px;
+}
+.ticket_content_li{
+    font-size: 40px;
+}
+.list_ticket_ticket{
+    display: flex;
+    justify-content: center;
+}
+.list_ticket_ticket_block{
+    text-align: center;
+    font-size: 30pX;
+}
+.ticket_theme_Contents{
+    margin-top: 50px;
+}
+.ticket_descript_text{
+    margin-top: 30px;
+    width: 700px;
+    height: 350px;
+    font-size: 25px;
+}
+.ticket_theme_a{
+    color: black;
+}
+.ticket_message_form{
+    display: flex;
+    justify-content: center;
+    font-size: 25pX;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.message_add_textarea{
+    margin-bottom: 30px;
+}
+.message_add_textarea-redacted{
+    width: 450px;
+    height: 100px;
+}
+.message_users{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.message_users_textarea-redacted{
+    font-size: 25px;
+    margin-top: 20px;
+    width: 700px;
+}
+.message_users_pole{
+    border: 5px solid black;
+    width: 1000px;
+}
+
+.redaction_ticket{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.bt{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.btn_submit{
+    font-size: 25px;
+}
+.input{
+    font-size: 25px;
+}
+
+.checkbox_ticket_h1{
+    font-size: 50px;
+}
+.checkbox_ticket{
+    height: 30px;
+    width: 30px;
+}
+    /*Section styles end*/
+
+
+
+
+
+
+/*Footer styles start*/
+
+.footer {
+    background: #474444;
+    display: flex;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    padding: 14px;
+}
+
+.footer__by {
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: pointer;
+    -webkit-transition: 0.35s;
+    transition: 0.35s;
+}
+
+.footer__by:hover {
+    color: #FF2B2B;
+}
+/*Footer styles end*/
+
+
+
+
+
+
+
+
+
+
